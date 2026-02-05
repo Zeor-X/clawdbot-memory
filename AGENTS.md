@@ -48,6 +48,15 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - `trash` > `rm` (recoverable beats gone forever)
 - When in doubt, ask.
 
+## 数据准确性原则
+
+**重要：只使用真实数据源，严禁使用模拟/虚假数据**
+
+- **股市数据**：必须来自实时 API（新浪财经、Yahoo Finance 等），不得使用模拟数据或过期数据
+- **金融资讯**：必须从可信源获取，不得编造
+- **验证数据**：获取数据后验证其合理性，发现异常立即报告用户
+- **数据来源标注**：在报告中明确标注数据来源，如 "*数据来源: 新浪财经*"
+
 ## External vs Internal
 
 **Safe to do freely:**
